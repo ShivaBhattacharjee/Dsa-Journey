@@ -32,7 +32,7 @@ int main()
         cout << "Its Sunday";
         break;
     default:
-        cout<<"Enter a valid day nerd";
+        cout << "Enter a valid day nerd";
         break;
     }
 }
