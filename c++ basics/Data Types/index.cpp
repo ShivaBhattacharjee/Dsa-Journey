@@ -29,7 +29,7 @@ short: Reduces the range of integer types.
 int main(){
     unsigned int count = 10; //stores only positive value why do we need it ? lets say we need to store the age of a person in a variable we can use unsgined int as users age cannot be in negative
 
-    signed int number = 377; //its  the opposite of unsigned int signed only stores positive numbers by default when we initialize an integrer its signed 
+    signed int number = 377; //its  the opposite of unsigned int signed stores both positive and negative numbers by default when we initialize an integrer its signed 
 
     // before knowing about long int , long long int, short int, we need to know the range 
 
