@@ -7,7 +7,7 @@ int main(){
     // without array approach we need to store 5 values
     int a , b , c , d , e; // we had to define 5 variables is it good for code readability absolutely no
 
-    // array appraoch
+    // array approach 
 
     int array[5]; //what is int data type of array what is array[5] array is the name of array [5] is the maximum number of values it can hold
 
