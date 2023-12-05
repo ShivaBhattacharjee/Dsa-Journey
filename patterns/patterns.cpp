@@ -128,17 +128,16 @@ pattern 6
 12
 1
 */
-void pattern6(int n)
-{
-    for (int i = 1; i < n; i++)
-    {
-        for (int j = n; j >= i; j--)
-        {
-            cout << n - j + 1;
+
+void pattern6(int n){
+    for(int i = 0 ; i<=n; i++){
+        for(int j = 1; j<=n-i; j++){
+            cout<<j;
         }
-        cout << endl;
+        cout<<endl;
     }
 }
+
 int main()
 {
     pattern6(5);
